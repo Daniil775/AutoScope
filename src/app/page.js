@@ -49,7 +49,7 @@ export default function Dashboard() {
 
         <section className="empty-car">
           <div className="empty-car-icon">
-            <img src="/logo.svg" alt="" />
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.svg`} alt="" />
           </div>
           <div>
 

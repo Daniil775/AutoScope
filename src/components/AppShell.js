@@ -51,7 +51,7 @@ export default function AppShell({ children }) {
       <aside className="menu">
         <Link href="/" className="brand">
           <span className="logo">
-            <img src="/logo.svg" alt="" />
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/logo.svg`} alt="" />
           </span>
           <span><b>Auto</b>Scope</span>
         </Link>
